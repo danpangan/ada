@@ -1,0 +1,464 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+p {
+    padding: 0 15px;
+    margin-bottom: 0 !important;
+}
+
+.router-link-exact-active {
+    background-color: #0b3d91;
+    color: white !important;
+}
+
+.router-link-exact-active:hover {
+    background-color: #0b3d91 !important;
+    color: white !important;
+}
+
+.brand-image-custom {
+    width: 250px;
+}
+
+.brand-link-custom {
+    font-size: 1.25rem;
+    display: block;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.brand-link-custom:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 2000px;
+    }
+}
+
+.card-adamay-blue{
+    background-color: #163041;
+    color: #fff;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.card-footer-transparent{
+    background-color: transparent;
+}
+
+.btn-row{
+    background-color: #163041;
+    border-color: #163041;
+    color: #fff;
+    padding: 3px 12px !important;
+}
+
+.btn-row:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    color: #fff;
+}
+
+.btn-add{
+    background-color: #163041;
+    border-color: #163041;
+    color: #fff;
+    padding: 6px 12px !important;
+}
+
+.btn-add:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    color: #fff;
+}
+
+.button-standard{
+    background-color: #163041;
+    border-color: #163041;
+    color: #fff;
+    padding: 3px 12px !important;
+}
+
+.button-standard:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    color: #fff;
+}
+
+.btn-info{
+    background-color: green;
+    border-color: green;
+    padding: 3px 12px !important;
+}
+
+.btn-info:hover{
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.btn-warning{
+    background-color: orange;
+    border-color: orange;
+    color: #fff;
+    padding: 3px 12px !important;
+}
+
+.btn-warning:hover{
+    background-color: darkorange;
+    border-color: darkorange;
+    color: #fff;
+}
+
+.btn-danger{
+    background-color: rgb(200, 0, 0);
+    border-color: rgb(200, 0, 0);
+    color: #fff;
+    padding: 3px 12px !important;
+}
+
+.btn-danger:hover{
+    background-color: darkred;
+    border-color: darkred;
+    color: #fff;
+}
+
+.page-link{
+    color: #163041;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #163041;
+    border-color: #163041;
+}
+
+.btn-adamay-blue{
+    background-color: #163041;
+    border-color: #163041;
+    color: #fff;
+}
+
+.btn-adamay-blue:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    color: #fff;
+}
+
+tr.tr_no_top_margin td, tr.tr_no_top_margin th  {
+    border-top:1pt solid white;
+    padding: 2px;
+}
+
+.form-group {
+    margin-bottom: 0.3rem;
+}
+
+.form-control {
+    height: auto;   
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.navbar-white {
+    background-color: white;
+}
+
+.ml-auto {
+    margin-left: auto!important;
+}
+
+.bell {
+    color: #163041;
+    font-size: 25px;
+}
+
+.employee_name {
+    font-size: 17px;
+    color: black;
+}
+
+.card-body {
+    font-size: 15px;
+    padding: 0.9rem !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.el-card__header {
+    padding: 9px 10px !important;
+    background-color: #163041;
+    box-sizing: border-box;
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.el-dropdown-menu__item {
+    line-height: 20px !important;
+}
+
+.el-dropdown {
+    vertical-align: top;
+}
+
+.el-dropdown + .el-dropdown {
+    margin-left: 15px;
+}
+
+.el-icon-arrow-down {
+    font-size: 12px;
+}
+
+.input-12 {
+    width: 50%;
+}
+
+.icon {
+    font-size: 18px;
+    color: $adamay-blue;
+}
+
+.text-danger {
+    color: red !important;
+    line-height: 20px !important;
+    font-size: 12px !important;
+}
+
+.text-danger-address {
+    color: red !important;
+    line-height: 20px !important;
+    font-size: 12px !important;
+    margin-top: -8px !important;
+}
+
+.el-form-item {
+    margin-bottom: 7px !important;
+}
+
+.el-form-item__content {
+    line-height: 40px;
+    position: relative;
+    font-size: 14px;
+}
+
+.el-textarea__inner {
+    margin-bottom: 8px;
+}
+
+.outside-card-button {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: right !important;
+}
+
+.button-back {
+    padding: 6px 12px !important;
+    font-size: 12px;
+}
+
+.el-table td, .el-table th {
+    padding: 4px 0 !important;
+}
+
+.el-pagination {
+    float: right !important;
+    padding-top: 15px !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no-border {
+    border: white;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #163041 !important;
+    border-color: #163041 !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: .625em 1.5em !important;
+}
+
+.swal2-styled.swal2-cancel {
+    background-color: rgb(221, 51, 51) !important;
+    border-color: rgb(221, 51, 51) !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: .625em 1.5em !important; 
+}
+
+.swal2-icon.swal2-warning {
+    border-color: rgb(221, 51, 51) !important;
+    color: rgb(221, 51, 51) !important;
+}
+
+.swal2-popup.swal2-modal {
+    width: 25rem !important;
+}
+
+.show-deleted-checkbox {
+    padding-top: 15px !important;
+}
+
+.info-deleted {
+    color: red !important;
+}
+
+.info-temporary {
+    color: orangered !important;
+}
+
+.el-table {
+    color: black !important;
+}
+
+.el-table thead {
+    color: black !important;
+}
+
+.el-radio__label {
+    color: black !important;
+}
+
+.permission-title {
+    font-weight: bold;
+}
+
+.el-collapse-item__header {
+    border-bottom: none !important;
+    font-size: 14px !important;
+}
+
+.el-collapse-item.is-disabled .el-collapse-item__header {
+    color: black !important;
+    cursor: auto !important;
+}
+
+.permission-row:hover {
+    background-color: #bbb;
+}
+
+.el-radio__label {
+    font-weight: normal !important;
+}
+
+.content-wrapper {
+    min-height: 760px !important;
+}
+
+.pdf {
+    color: #FFF !important;
+    background-color: #163041 !important;
+    border-color: #163041 !important;
+}
+
+.pdf:hover {
+    color: #FFF !important;
+    background-color: lightslategray !important;
+    border-color: lightslategray !important;
+}
+
+.el-button--primary {
+    background: #163041 !important;
+    border-color: #163041 !important;
+    color: white !important;
+}
+
+.dropdown-item-links {
+    color: #606266;
+}
+
+.el-input.is-disabled .el-input__inner {
+    color: #606266 !important;
+}
+
+.el-textarea.is-disabled .el-textarea__inner {
+    color: #606266 !important;
+}
+
+hr.hr1 {
+    border-top: 2px solid #D3D3D3;
+}
+
+.block {
+    display: block !important;
+}
+
+.fa-file-import {
+    color: #163041 !important;
+}
+
+.border-header {
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    padding: 5px !important;
+}
+
+.border-content {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.misc-input {
+    padding: 5px !important;
+}
+
+.content-title {
+    background-color: #e9ecef !important; 
+    padding: 5px !important;
+}
+
+.tracking-card-title {
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+.expandable-row {
+    background-color: #e9ecef !important;
+}
+
+.expandable-row-name {
+    cursor: pointer !important;
+    color: blue !important;
+}
+
+.el-checkbox__input.is-disabled+span.el-checkbox__label {
+    color: #606266 !important;
+}
+
+.el-icon-connection {
+    color: black !important;
+}
